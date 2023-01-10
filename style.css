@@ -1,3 +1,4 @@
+/* universal styles */
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* header section */
 header {
   position: fixed;
   top: 0;
@@ -74,3 +76,5 @@ header {
   cursor: pointer;
   z-index: 10001;
 }
+
+/* home section */
