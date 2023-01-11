@@ -6,6 +6,7 @@
   list-style: none;
   font-family: "Jost", serif;
   text-decoration: none;
+  transition: all 0.42s ease;
 }
 
 html {
@@ -78,3 +79,61 @@ header {
 }
 
 /* home section */
+.home {
+  height: 100vh;
+  background: url("./image/banner-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+.content-section h5 {
+  font-size: 30px;
+  font-family: "Jost", serif;
+  font-weight: bold;
+  color: #ee1c47;
+  text-transform: capitalize;
+  margin-bottom: 7px;
+}
+
+.content-section h2 {
+  color: #2c2c2c;
+  font-size: 70px;
+  font-weight: 400px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.content-section p {
+  color: #2c2c2c;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.content-btn {
+  margin-top: 10px;
+  padding: 14px 40px;
+  cursor: pointer;
+  border-radius: 7px;
+  font-size: 18px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  transition: all 0.42s ease;
+}
+
+.content-btn:hover {
+  background-color: #ee1c47;
+  color: #fff;
+  border-color: #ccc;
+  outline: none;
+}
+
+.content-btn:active {
+  outline: none;
+  border: none;
+}
