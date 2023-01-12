@@ -144,6 +144,18 @@ header {
   background-color: #ccc;
 }
 
+.trending h2 {
+  text-align: center;
+  margin: 35px 10px;
+  font-size: 55px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.trending h2 span {
+  color: #ee1c47;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
