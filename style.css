@@ -215,3 +215,60 @@ header {
 }
 
 /* customer review section styles */
+.customer-review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+.customer-review h2 {
+  text-align: center;
+  margin: 35px 10px;
+  font-size: 55px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.customer-review h2 span {
+  color: #ee1c47;
+}
+
+/* review card */
+.review-card {
+  height: 430px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  border: 4px solid #ccc;
+  box-shadow: 0 2px 4px #000;
+  text-align: center;
+}
+
+.image-section img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 2px solid #ee1c47;
+}
+
+.customer-info-section {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.customer-info-section p {
+  line-height: 25px;
+  width: 70%;
+  text-align: center;
+}
