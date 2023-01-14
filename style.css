@@ -237,7 +237,7 @@ header {
 
 /* review card */
 .review-card {
-  height: 430px;
+  height: 460px;
   width: 800px;
   display: flex;
   flex-direction: column;
@@ -268,7 +268,28 @@ header {
 }
 
 .customer-info-section p {
-  line-height: 25px;
   width: 70%;
   text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.customer-info-section h1 {
+  font-size: 30px;
+  font-weight: 400px;
+  margin-bottom: 4px;
+}
+
+.customer-info-section .btn {
+  margin-top: 5px;
+  padding: 14px 40px;
+  cursor: pointer;
+  border-radius: 7px;
+  font-size: 18px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  transition: all 0.42s ease;
+  background-color: #2c2c2c;
 }
