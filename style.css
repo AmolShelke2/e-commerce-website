@@ -300,3 +300,24 @@ header {
 }
 
 /* new updates */
+.new-updates {
+  margin: 20px;
+  padding: 20px 10%;
+}
+
+.new-updates h2 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 50px;
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+
+.new-updates h2 span {
+  color: #ee1c47;
+}
+
+/* end of new updates */
+
+@media (max-width: 500px) {
+}
