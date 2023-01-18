@@ -319,5 +319,47 @@ header {
 
 /* end of new updates */
 
-@media (max-width: 500px) {
+/* Responsive-css */
+@media (max-width: 890px) {
+  header {
+    padding: 20px 3%;
+    transition: 0.4s;
+  }
+}
+@media (max-width: 630px) {
+  .main-text h1 {
+    font-size: 50px;
+    transition: 0.4s;
+  }
+  .main-text p {
+    font-size: 18px;
+    transition: 0.4s;
+  }
+  .main-btn {
+    padding: 10px 20px;
+    transition: 0.4s;
+  }
+}
+
+@media (max-width: 750px) {
+  .navmenu {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 300px;
+    height: 130vh;
+    background: #edfff1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 30px;
+    transition: all 0.42s;
+  }
+  .navmenu a {
+    display: block;
+    margin: 18px 0;
+  }
+  .navmenu.open {
+    right: 0;
+  }
 }
