@@ -318,6 +318,31 @@ header {
   color: #ee1c47;
 }
 
+.new-updates .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.new-updates .update-card {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 2px solid #fff;
+  padding: 10px 10px;
+  box-sizing: 0 2px 4px #000;
+}
+
+.new-updates .update-card p {
+  width: 70%;
+}
+
+.new-updates .update-card img {
+  height: 400px;
+  width: 500px;
+}
 /* end of new updates */
 
 /* Responsive-css */
