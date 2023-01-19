@@ -25,6 +25,7 @@ header {
   align-items: center;
   text-align: center;
   padding: 20px 10%;
+  background-color: #ee1c47;
 }
 
 .logo img {
@@ -245,7 +246,7 @@ header {
   align-items: center;
   padding: 10px;
   border-radius: 20px;
-  border: 4px solid #ccc;
+  border: 4px solid #fff;
   box-shadow: 0 2px 4px #000;
   text-align: center;
 }
@@ -377,6 +378,20 @@ header {
 
   .content-section p {
     font-size: 18px;
+  }
+
+  /* review section */
+  .customer-review h2 {
+    font-size: 30px;
+  }
+
+  .review-card {
+    height: 500px;
+    width: 400px;
+  }
+
+  .customer-info-section p {
+    width: 100%;
   }
 }
 

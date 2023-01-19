@@ -1,4 +1,3 @@
-init;
 const menuIcon = document.querySelector("#menu-icon");
 const navMenu = document.querySelector(".navmenu");
 
