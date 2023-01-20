@@ -302,8 +302,8 @@ header {
 
 /* new updates */
 .new-updates {
-  margin: 20px;
   padding: 20px 10%;
+  background-color: #ccc;
 }
 
 .new-updates h2 {
@@ -324,25 +324,35 @@ header {
 }
 
 .new-updates .update-card {
-  height: 600px;
-  width: 600px;
+  height: 530px;
+  width: 700px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  border: 2px solid #fff;
   padding: 10px 10px;
-  box-sizing: 0 2px 4px #000;
-}
-
-.new-updates .update-card p {
-  width: 70%;
+  box-shadow: 0px 4px 6px #000;
+  margin: 1rem;
+  border: none;
+  border-radius: 12px;
 }
 
 .new-updates .update-card img {
   height: 400px;
-  width: 500px;
+  width: 680px;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
+
+.new-updates .update-card p {
+  font-size: 17px;
+  text-transform: capitalize;
+  color: #2c2c2c;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  width: 70%;
+}
+
 /* end of new updates */
 
 /* Responsive-css */
@@ -418,10 +428,41 @@ header {
   .customer-info-section p {
     width: 100%;
   }
+
+  .new-updates .update-card {
+    width: 500px;
+    height: 400px;
+  }
+
+  .new-updates .update-card img {
+    width: 480px;
+    height: 200px;
+  }
 }
 
 @media (max-width: 400px) {
   .content-section h2 {
     font-size: 30px;
+  }
+
+  .new-updates h2 {
+    font-size: 30px;
+  }
+
+  .new-updates .update-card {
+    width: 380px;
+    height: 430px;
+    margin: 0.8rem 0;
+  }
+
+  .new-updates .update-card img {
+    width: 360px;
+    height: 300px;
+  }
+
+  .new-updates .update-card p {
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: initial;
   }
 }
