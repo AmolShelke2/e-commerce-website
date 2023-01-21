@@ -366,8 +366,11 @@ header {
 .new-updates .update-btn:hover {
   background-color: #000;
 }
-
 /* end of new updates */
+
+/* footer */
+
+/* footer end */
 
 /* Responsive-css */
 @media (max-width: 890px) {
