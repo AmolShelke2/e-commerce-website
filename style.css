@@ -408,7 +408,6 @@ header {
   color: #fff;
   text-decoration: underline;
 }
-
 /* footer end */
 
 /* Responsive-css */
@@ -485,9 +484,13 @@ header {
     width: 100%;
   }
 
+  .new-updates h2 {
+    font-size: 30px;
+  }
+
   .new-updates .update-card {
     width: 500px;
-    height: 400px;
+    height: 500px;
   }
 
   .new-updates .update-card img {
@@ -496,7 +499,7 @@ header {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .content-section h2 {
     font-size: 30px;
   }
@@ -507,7 +510,7 @@ header {
 
   .new-updates .update-card {
     width: 380px;
-    height: 430px;
+    height: 450px;
     margin: 0.8rem 0;
   }
 
@@ -520,5 +523,14 @@ header {
     width: 100%;
     font-size: 14px;
     letter-spacing: initial;
+  }
+
+  .footer {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .footer ul {
+    flex-direction: column;
   }
 }
