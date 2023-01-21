@@ -369,6 +369,45 @@ header {
 /* end of new updates */
 
 /* footer */
+.footer {
+  background-color: #ee1c47;
+  padding: 20px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social ul {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.social ul li {
+  margin-right: 1rem;
+}
+
+.social ul li a {
+  color: #000;
+  font-size: 20px;
+  margin-right: 0.5rem;
+}
+
+.social ul li a:hover {
+  color: #fff;
+}
+
+.footer p {
+  font-size: 20px;
+  color: #000;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.footer p a {
+  color: #fff;
+  text-decoration: underline;
+}
 
 /* footer end */
 
