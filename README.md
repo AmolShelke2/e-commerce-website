@@ -1,6 +1,10 @@
 # E-commerce website
 
-An E-commerce website created with HTML CSS and JavaScript.
+An E-commerce website created with HTML CSS and JavaScript. It's Mobile friendly and
+
+I use media quries for making it look good on every screen size
+
+Star ⭐ The Repository if you love this project ❤️.
 
 # Tech stack used
 
@@ -14,6 +18,7 @@ As I wanted to practice my HTML CSS and basic JavaScript knowledge I used only t
 - For layouts I used the CSS flexbox.
 
 # Live Preview
+
 [E-commerce website](https://e-commerce-website-rose-nu.vercel.app/)
 
 # Preview
