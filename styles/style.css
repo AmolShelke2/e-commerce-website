@@ -387,6 +387,10 @@ header {
   margin-right: 1rem;
 }
 
+.social ul li img {
+  height: 10px;
+}
+
 .social ul li a {
   color: #000;
   font-size: 20px;
@@ -532,5 +536,9 @@ header {
 
   .footer ul {
     flex-direction: column;
+  }
+
+  .footer ul li img {
+    display: none;
   }
 }
