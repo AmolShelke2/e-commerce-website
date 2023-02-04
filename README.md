@@ -23,7 +23,13 @@ As I wanted to practice my HTML CSS and basic JavaScript knowledge I used only t
 
 # Preview
 
+## Desktop
+
 ![192 168 110 73_5500_index html(Nest Hub Max)](https://user-images.githubusercontent.com/95171638/212487076-23667b3a-bc23-455d-9255-504bcf86e025.png)
+
+## Phones
+![e-commerce-website-rose-nu vercel app_(Pixel 5) (1)](https://user-images.githubusercontent.com/95171638/216777159-0e4b1b67-2ea1-486d-9831-441e8f508061.png)
+
 
 # More about Me.
 
